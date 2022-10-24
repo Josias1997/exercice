@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+table {
+    border: 2px solid black;
+    width: 50%;
+    border-collapse: collapse;
+    font-family: arial, sans-serif;
+    /* bach yakhod nfss l3rd f les colone kamline */
+    table-layout: fixed;
+}
+
+thead {
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #dddddd;
+}
+
+tr,
+td {
+    border: 1px solid black;
+
+}
+
+.first-col {
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #dddddd;
+}
