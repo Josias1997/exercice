@@ -1,0 +1,23 @@
+
+
+
+
+table {
+    width: 700px;
+    height: 300px;
+    border: 1px solid;
+    text-align: start;
+    border-collapse: collapse;
+    margin: auto;
+    
+}
+
+th, tr, td {
+    border: 1px solid;
+    text-align: start;
+    padding-left: 20;
+}
+
+th {
+    background-color: rgba(128, 128, 128, 0.24);
+}
