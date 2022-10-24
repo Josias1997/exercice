@@ -1,0 +1,21 @@
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+table{
+    border-collapse: collapse; 
+    table-layout: fixed; 
+    width: 500px;
+}
+tr, th, td {
+    border: 1px solid black;
+    text-align: left;
+}
+th, td{
+    padding: 8px;
+}
+thead tr>th {
+    color: red;
+}
